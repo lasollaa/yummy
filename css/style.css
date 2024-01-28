@@ -1,0 +1,55 @@
+body{
+    background-color: burlywood !important;
+    color: rgba(255, 255, 255, 0.925);
+    overflow: hidden;
+}
+
+.nav-text{
+    background-color: burlywood;
+}
+.nav-header{
+    background-color: rgba(165, 42, 42, 0.699);
+}
+i{
+    color: rgba(255, 255, 255, 0.925);
+}
+.logo{
+    width: 50px;
+}
+
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(165, 42, 42, 0.699);
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meal-layer{
+    top: 0;
+}
+
+.side-nav{
+    z-index: 300;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 600;
+    display: flex;
+    background-color: burlywood;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    background-color: burlywood;
+    z-index: 700;
+    display: flex;
+}
